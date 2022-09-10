@@ -5,9 +5,9 @@
 ### Python
 
 ```python
-from requests import get
+import requests
 
-zekr = get('https://azkar-api.nawafhq.repl.co/zekr?json').json() # Type = dict
+zekr = requests.get('https://azkar-api.nawafhq.repl.co/zekr?json').json() # Type = dict
 print(zekr['content'])
 ```
 
@@ -62,4 +62,7 @@ https://azkar-api.nawafhq.repl.co/zekr?e&m&json
 
 ---
 
-[طريقة الاستعمال في لغات أخرى](https://github.com/nawafalqari/azkar-api/tree/main/examples "طريقة الاستعمال في لغات أخرى")
+## اخرى
+- [Discord Bot Made By Nawaf Alqari](https://github.com/nawafalqari/AzkarBot)
+- [Discord Bot Made By عبدالاله (s-vn)](https://github.com/s-vn/Discord-athkar-bot)
+- [Telegram Bot Made By عبدالاله (s-vn)](https://github.com/s-vn/Telegram-athkar-bot)
